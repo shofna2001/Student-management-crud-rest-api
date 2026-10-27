@@ -21,7 +21,7 @@ public class StudentController {
     }
 
 
-    // CREATE (POST)
+    // CREATE (POST API)
     @PostMapping
     public ResponseEntity<Student> createStudent(
             @Valid @RequestBody Student student
